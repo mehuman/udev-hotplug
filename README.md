@@ -1,0 +1,3 @@
+- Copy 99-monitor-hotplug.rules to /etc/udev/rules.d/
+- Edit monitor-hotplug.sh and put it somewhere. Edit 99-monitor-hotplug.rules to point to monitor-hotplug.sh
+- Use arandr to generate the scripts monitor-hotplug.sh will call
